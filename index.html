@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div>
+        <ul class="navbar">
+            <li><a class="nav-link"  href="#hero">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-intro">Hello, I'm</p>
+
+                <h1 class="hero-name">Yash Maheshwari</h1>
+
+                <p class="hero-role">Backend Developer</p>
+
+                <p class="hero-desc">
+                Software engineering student passionate about building web apps 
+                and scalable backend systems.
+                </p>
+
+                <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+
+            </div>
+            <div class="hero-img">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="section-head">About Me</h2>
+        
+        <p class="about-content">
+
+            Hi, I’m Yash Maheshwari — a software engineering student with a strong interest in 
+            <span class="highlight">backend development</span> and currently learning 
+            <span class="highlight">frontend technologies</span> to build complete web applications.<br>
+
+            I enjoy working with <span class="highlight">server-side logic</span>, 
+            <span class="highlight">REST APIs</span>, and <span class="highlight">databases</span>, 
+            while continuously improving my understanding of 
+            <span class="highlight">scalable system design</span>. My goal is to write clean, maintainable code and create responsive user experiences.<br>
+
+            Alongside web development, I actively practice 
+            <span class="highlight">Data Structures & Algorithms</span> to strengthen my 
+            <span class="highlight">logical thinking</span> and 
+            <span class="highlight">problem-solving skills</span>. I regularly work with 
+            <span class="highlight">arrays</span>, <span class="highlight">linked lists</span>, 
+            <span class="highlight">stacks</span>, <span class="highlight">queues</span>, 
+            <span class="highlight">trees</span>, <span class="highlight">graphs</span>, and 
+            <span class="highlight">dynamic programming</span> as part of my interview preparation.<br>
+
+            Currently, I’m sharpening my backend skills, expanding my frontend knowledge, and consistently practicing DSA, with the aim of becoming a 
+            <span class="highlight">well-rounded software engineer</span> capable of building real-world applications and solving complex problems.
+
+        </p>
+    </section>
+    
+    <section id="skills">
+
+        <h2 class="section-head">Skills</h2>
+
+        <div class="skills-wrapper">
+
+            <div class="skill-group">
+            <h3>Backend Development</h3>
+            <div class="skill-tags">
+                <span class="skill">NodeJs</span>
+                <span class="skill">ExpressJs</span>
+                <span class="skill">REST APIs</span>
+                <span class="skill">Cloudinary</span>
+                <span class="skill">MongoDB</span>
+                <span class="skill">SpringBoot (Learning)</span>
+            </div>
+            </div>
+
+            <div class="skill-group">
+            <h3>Data Structures & Algorithms</h3>
+            <div class="skill-tags">
+                <span class="skill">Arrays</span>
+                <span class="skill">Strings</span>
+                <span class="skill">Linked Lists</span>
+                <span class="skill">Stacks</span>
+                <span class="skill">Queues</span>
+                <span class="skill">Trees</span>
+                <span class="skill">Graphs (Learning)</span>
+                <span class="skill">Dynamic Programming (Learning)</span>
+            </div>
+            </div>
+
+            <div class="skill-group">
+            <h3>Tools & Practices</h3>
+            <div class="skill-tags">
+                <span class="skill">Git</span>
+                <span class="skill">Debugging</span>
+                <span class="skill">Project Structuring</span>
+            </div>
+            </div>
+
+        </div>
+
+        </section>
+
+    <section id="projects">
+
+        <h2 class="section-head">Projects</h2>
+
+        <div class="projects-wrapper">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+            <img src="byola.png" alt="Project">
+
+            <div class="project-overlay">
+                <h3>BYOLA - A legal Assistant</h3>
+
+                <div class="project-buttons">
+                <a href="https://github.com/whoisyashu/BYOLA.git" target="_blank" class="btn primary">GitHub</a>
+                <a href="#" class="btn secondary">Visit Site</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+            <img src="portfolio.png" alt="Project">
+
+            <div class="project-overlay">
+                <h3>My Portfolio</h3>
+
+                <div class="project-buttons">
+                <a href="https://github.com/whoisyashu/MyPortfolio.git" class="btn primary">GitHub</a>
+                <a href="https://heyitsyash.tech/" class="btn secondary">Visit Site</a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+    <h2 class="section-head">Contact Me</h2>
+
+        <div class="contact-wrapper">
+
+            <form class="contact-form" id="contactForm">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn primary">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <h3>Yash Maheshwari</h3>
+      <p>Backend-focused developer crafting modern web applications.</p>
+    </div>
+
+    <div class="footer-center">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-right">
+      <a href="#hero" class="back-top">↑</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Yash Maheshwari — Built with passion.
+  </div>
+
+</footer>
+
+
+    <!-- TOAST -->
+
+    <div id="toast" class="toast">
+        ⓘ Message sent successfully.
+    </div>
+
+    <!-- EMAILJS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+    (function(){
+        emailjs.init("BxGHT6yUQ_PJfD1kC");
+    })();
+    </script>
+
+    <script>
+    const form = document.getElementById("contactForm");
+    const toast = document.getElementById("toast");
+
+    form.addEventListener("submit", function(e){
+        e.preventDefault();
+
+        emailjs.sendForm(
+            "service_nkvs3kc",
+            "template_8zv1yj8",
+            this
+        ).then(() => {
+
+            form.reset();
+
+            toast.classList.add("show");
+
+            setTimeout(() => {
+                toast.classList.remove("show");
+            }, 4000);
+
+        }, () => {
+            alert("Something went wrong!");
+        });
+    });
+    </script>
+
+
+
+</body>
+</html>
